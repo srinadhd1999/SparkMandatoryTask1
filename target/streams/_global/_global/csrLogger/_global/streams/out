@@ -1,0 +1,15 @@
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-token-provider-kafka-0-10_2.12/3.1.2/spark-token-provider-kafka-0-10_2.12-3.1.2-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.12/3.1.2/spark-streaming_2.12-3.1.2-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/3.2.1/hadoop-annotations-3.2.1-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.1/hadoop-common-3.2.1-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.2.1/hadoop-aws-3.2.1-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka-0-10_2.12/3.1.2/spark-streaming-kafka-0-10_2.12-3.1.2-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.6.0/kafka-clients-2.6.0-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.12/3.1.2/spark-sql-kafka-0-10_2.12-3.1.2-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/commons-daemon/commons-daemon/1.0.13/commons-daemon-1.0.13-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/3.2.1/hadoop-hdfs-3.2.1-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.2.1/hadoop-auth-3.2.1-sources.jar

@@ -1,0 +1,52 @@
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:6:26: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def getSparkSession: SparkSession = {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:7:21: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m        val spark = SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:35:53: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def readCsv(path: String, spark: SparkSession): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:35:38: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def readCsv(path: String, spark: SparkSession): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:43:38: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def writeToCassandraKeySpace(df: DataFrame, spark: SparkSession, tableName: String, keySpaceName: String): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:43:56: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def writeToCassandraKeySpace(df: DataFrame, spark: SparkSession, tableName: String, keySpaceName: String): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:51:98: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def readFromCassandraKeySpace(spark: SparkSession, tableName: String, keySpaceName: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:51:42: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def readFromCassandraKeySpace(spark: SparkSession, tableName: String, keySpaceName: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:59:30: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def writeToS3Parquet(df: DataFrame, outputPath: String): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:63:63: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def readFromS3Parquet(spark: SparkSession, path: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:63:34: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def readFromS3Parquet(spark: SparkSession, path: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:68:39: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def renameColumns(df: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:68:27: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def renameColumns(df: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:75:28: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    def printDataFrame(df: DataFrame): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
