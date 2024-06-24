@@ -4084,3 +4084,35 @@ Jun 20, 2024 11:32:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 488
 Jun 20, 2024 2:32:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 547
+Jun 24, 2024 10:37:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 731
+2024.06.24 10:38:05 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:38:07 INFO  time: compiled sparkmandatorytask1 in 1.74s
+2024.06.24 10:38:11 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:38:12 INFO  time: compiled sparkmandatorytask1 in 1.15s
+2024.06.24 10:39:07 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:39:10 INFO  time: compiled sparkmandatorytask1 in 2.29s
+2024.06.24 10:51:11 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:51:11 INFO  time: compiled sparkmandatorytask1 in 0.82s
+2024.06.24 10:52:11 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:52:11 INFO  time: compiled sparkmandatorytask1 in 0.82s
+2024.06.24 10:53:04 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:53:04 INFO  time: compiled sparkmandatorytask1 in 0.76s
+2024.06.24 10:53:53 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:53:53 INFO  time: compiled sparkmandatorytask1 in 0.75s
+2024.06.24 10:55:01 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:55:02 INFO  time: compiled sparkmandatorytask1 in 1.11s
+2024.06.24 10:58:37 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 10:58:37 INFO  time: compiled sparkmandatorytask1 in 0.9s
+2024.06.24 11:00:21 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 11:00:21 INFO  time: compiled sparkmandatorytask1 in 0.26s
+2024.06.24 11:00:47 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 11:00:47 INFO  time: compiled sparkmandatorytask1 in 0.69s
+2024.06.24 11:01:46 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 11:01:46 INFO  time: compiled sparkmandatorytask1 in 0.72s
+2024.06.24 11:02:42 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 11:02:42 INFO  time: compiled sparkmandatorytask1 in 0.22s
+2024.06.24 11:03:14 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 11:03:15 INFO  time: compiled sparkmandatorytask1 in 1.14s
+2024.06.24 11:04:46 INFO  compiling sparkmandatorytask1 (1 scala source)
+2024.06.24 11:04:46 INFO  time: compiled sparkmandatorytask1 in 0.78s

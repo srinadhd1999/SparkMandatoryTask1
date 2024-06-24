@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:55:9: only traits and abstract classes can have declared but undefined members[0m
-[0m[[0m[31merror[0m] [0m[0m    def readFromS3Par[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask1/src/main/scala/SparkTask1.scala:126:9: not found: value printDF[0m
+[0m[[0m[31merror[0m] [0m[0m        printDF(countOfRecords)[0m
 [0m[[0m[31merror[0m] [0m[0m        ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

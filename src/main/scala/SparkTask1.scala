@@ -1,6 +1,7 @@
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._
+import com.amazonaws.services.directconnect.model.Loa
 
 object SparkTask1 {
     def getSparkSession: SparkSession = {
@@ -86,20 +87,20 @@ object SparkTask1 {
         val zaragozaDataDf = readCsv(input_path, spark)
 
         //writing data to cassandra keyspace
-        // writeToCassandraKeySpace(zaragozaDataDf, spark, "zaragoza_data", "sparkAssignment")
+        writeToCassandraKeySpace(zaragozaDataDf, spark, "zaragoza_data", "sparkAssignment")
 
         //read from cassandra keyspace
-        // val zaragozaDataCassandraDf = readFromCassandraKeySpace(spark, "zaragoza_data", "sparkAssignment")
+        val zaragozaDataCassandraDf = readFromCassandraKeySpace(spark, "zaragoza_data", "sparkAssignment")
 
         //writing data to S3
-        // val zaragozaDataRenamedDf = renameColumns(zaragozaDataCassandraDf) 
-        // writeToS3Parquet(zaragozaDataRenamedDf, output_path)
+        val zaragozaDataRenamedDf = renameColumns(zaragozaDataCassandraDf) 
+        writeToS3Parquet(zaragozaDataRenamedDf, output_path)
 
-        //reading from S3 parquet
+        // reading from S3 parquet
         val zaragozaDataParquetDf = readFromS3Parquet(spark, output_path)
         printDataFrame(zaragozaDataParquetDf)
 
-        // 1. Calculate the average NO2 levels per station
+        // Calculate the average NO2 levels per station
         val avgNO2PerStation = zaragozaDataParquetDf.groupBy("station_name").agg(avg("NO2").alias("avg_NO2"))
         printDataFrame(avgNO2PerStation)
         
@@ -114,5 +115,14 @@ object SparkTask1 {
         // 4. Calculate the average temperature per station
         val avgTempPerStation = zaragozaDataParquetDf.groupBy("station_name").agg(avg("Temp").alias("avg_Temp"))
         printDataFrame(avgTempPerStation)
+
+        val totalPrecipitation = zaragozaDataParquetDf.groupBy("station_name").agg(sum("Total_Percipitation").alias("total_prep"))
+        printDataFrame(totalPrecipitation)
+
+        val totalSoilTemp = zaragozaDataParquetDf.groupBy("station_name").agg(sum("Soil_Temp").alias("total_soil_temp"))
+        printDataFrame(totalSoilTemp)
+
+        val countOfRecords = zaragozaDataParquetDf.groupBy("station_name").agg(count("*"))
+        printDataFrame(countOfRecords)
     } 
 }
